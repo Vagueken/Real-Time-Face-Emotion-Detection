@@ -13,7 +13,7 @@ Facial expressions are a form of nonverbal communication. Various studies have b
 
 The Indian education landscape has been undergoing rapid changes for the past 10 years owing to the advancement of web-based learning services, specifically, eLearning platforms.
 
-Global E-learning is estimated to witness an 8X over the next 5 years to reach USD 2B in 2021. India is expected to grow with a CAGR of 44% crossing the 10M users mark in 2021. Although the market is growing on a rapid scale, there are major challenges associated with digital learning when compared with brick and mortar classrooms.
+Global E-learning is estimated to witness an 8X over the next 5 years to reach USD 2B soon. India is expected to grow with a CAGR of 44% crossing the 10M users mark. Although the market is growing on a rapid scale, there are major challenges associated with digital learning when compared with brick and mortar classrooms.
 One of many challenges is how to ensure quality learning for students. Digital platforms might overpower physical classrooms in terms of content quality but when it comes to understanding whether students are able to grasp the content in a live class scenario is yet an open-end challenge.
 In a physical classroom during a lecturing teacher can see the faces and assess the emotion of the class and tune their lecture accordingly, whether he is going fast or slow. He can identify students who need special attention.
 
@@ -25,8 +25,6 @@ Deep learning backed system not only solves the surveillance issue, but it also 
 
 I will solve the above-mentioned challenge by applying deep learning algorithms to live video data.
 The solution to this problem is by recognizing facial emotions.
-You can look at the power point presentation for better clarity on the model : 
-https://github.com/shafilahamed/Capstone-5--Real-Time-Face-Emotion-Recognition/blob/main/Capstone%205%20presentation.pptx
 
 ## Dataset Information
 
@@ -35,7 +33,7 @@ Here is the dataset link:-https://www.kaggle.com/c/challenges-in-representation-
 ## Model Creation
 # 1)
 # Face-Emotion-Recognition Using Transfer Learning
- Here we have created the models which recognizes the real time emotion of person in frame. So basically its a team project done by me and my friend Babu reddy.Here is model trained by me using Transfer Learning with a pre trained model MobileNet.
+ Here I have created the models which recognizes the real time emotion of person in frame. The project is done by me with using some online help. Here is model trained by me using Transfer Learning with a pre trained model MobileNet.
 
 Transfer learning is a  research problem in machine learning model that focuses on storing knowledge gained while solving a problem and applies it to another problem of similar kind. It offers better starting point and improves the model performance when applied on second task. The model file for this is provided in my_model folder you can have a look.
 
@@ -43,7 +41,7 @@ Transfer learning is a  research problem in machine learning model that focuses 
 
 
 ## You can take reference of my jupyter notebook
-https://github.com/shafilahamed/Capstone-5--Real-Time-Face-Emotion-Recognition/blob/main/python%20files%20of%20different%20model/Teamnotebook_1-transferlearning.ipynb
+...
  
  In this Model 'MobileNet' Transfer-Learning is used, along with computer vision for Real time face emotion recognition through webcam, so based on these a streamlit app is created which is deployed on Heroku cloud platform and streamlit's own streamllit share platform.
 The model is trained on the dataset 'FER-13 cleaned dataset', which had five emotion categories namely 'Happy', 'Sad', 'Neutral','Angry','Surprise','Fear' and 'Disgust' in which all the images were 48x48 pixel grayscale images of face. This model gave an accuracy of approximately 78% on train data, and around 76% of accuracy on test data at 30th epoc.
@@ -85,7 +83,7 @@ A CNN based Tensorflow implementation on facial expression recognition (FER2013 
 
 
 ## You can take a reference of my jupyter notebook for building model. Here is the link : 
-https://github.com/shafilahamed/Capstone-5--Real-Time-Face-Emotion-Recognition/blob/main/python%20files%20of%20different%20model/Team_Notebook_2.ipynb
+...
 
 ### Dependencies:
 - python 3.7<br/>
@@ -121,8 +119,8 @@ For Webapp , OpenCV can’t be used. Thus, using Streamlit for front-end applica
 In this repository I have made a front end using streamlit as it have recently launched a streamlit.share platform.
 
 
-Streamlit Link:- https://share.streamlit.io/shafilahamed/capstone-5--real-time-face-emotion-recognition/main                                                     
-Heroku link : https://emotion-detection-app-cnn.herokuapp.com/
+Streamlit Link:- 
+Heroku link : 
 
 
 
