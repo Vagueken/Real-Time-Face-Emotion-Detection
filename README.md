@@ -112,7 +112,7 @@ In this repository I have made a front end using streamlit as it have recently l
 
 
 Streamlit Link:- 
-https://vagueken-visual-emotion-detection-streamlit-app-szogf9.streamlit.app/
+https://vagueken-real-time-face-emotion-detection-streamlit-app-2vopec.streamlit.app/
 
 
 ## Conclusion
