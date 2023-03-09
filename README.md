@@ -96,7 +96,8 @@ A CNN based Tensorflow implementation on facial expression recognition (FER2013 
 - The model is represented as a json file :model.json
 The separated dataset is already available to download in the two folders train and test.
 
-![](images/loss_accuracy_plot.jpg)
+loss_accuracy_plot.png![image](https://user-images.githubusercontent.com/67421545/224051947-1a344749-ef09-4c88-98e0-cd3bb449feb1.png)
+
 # This was the CNN model that gave low slug size,both of them are present in my github repository.
 
 ## Realtime Local Video Face Detection
