@@ -37,21 +37,15 @@ Transfer learning is a  research problem in machine learning model that focuses 
 ![transfer_learning](https://user-images.githubusercontent.com/81186352/117619020-613f2c80-b18c-11eb-845a-7396b80aa5ff.jpg)
 
 
-## You can take reference of my jupyter notebook
+## You can take reference of my jupyter notebook 
+https://github.com/Vagueken/Visual-Emotion-Detection/blob/main/Python%20Files/Tranfer%20Learning%201%20Mobilenet.ipynb
 ...
  
  In this Model 'MobileNet' Transfer-Learning is used, along with computer vision for Real time face emotion recognition through webcam, so based on these a streamlit app is created which is deployed on Heroku cloud platform and streamlit's own streamllit share platform.
-The model is trained on the dataset 'FER-13 cleaned dataset', which had five emotion categories namely 'Happy', 'Sad', 'Neutral','Angry','Surprise','Fear' and 'Disgust' in which all the images were 48x48 pixel grayscale images of face. This model gave an accuracy of approximately 78% on train data, and around 76% of accuracy on test data at 30th epoc.
+The model is trained on the dataset 'FER-13 cleaned dataset', which had seven emotion categories namely 'Happy', 'Sad', 'Neutral','Angry','Surprise','Fear' and 'Disgust' in which all the images were 48x48 pixel grayscale images of face. This model gave an accuracy of approximately 78% on train data, and around 76% of accuracy on test data at 30th epoc.
 
 
- Since there was an soft limit size of 300MB on heroku colud platform to perfectly deploy and run the model through app. My model size was around 498MB because of which I can only deploy the app but couldn't run perfectly. So this can be solved by providing some more extra space or by further reducing the slug size of model if possible.
- 
- Since our model gave application error after deployment because of slug size, we also trained a model using CNN which gave an accuracy of 66.47% for train data, and 58.19% on test data at 42nd epoc.and we deployed this model on heroku cloud platform where slug size was around 413MB, which successfully deployed and app is facing issue in boot time.
-and therefore we deployed it in Streamlit.share platform 
-
-Here is link:  https://share.streamlit.io/shafilahamed/capstone-5--real-time-face-emotion-recognition/main                                                              
-
-Heroku link : https://emotion-detection-app-cnn.herokuapp.com/
+ I also trained a model using CNN which gave an accuracy of 66.47% for train data, and 58.19% on test data.
 
 
 # Dependencies
@@ -75,7 +69,7 @@ Python and the following packages:
 
 # 2)
 # Emotion-Recognition Web Application With Streamlit(Using Keras and CNN) 
-A CNN based Tensorflow implementation on facial expression recognition (FER2013 dataset), achieving 66,72% accuracy 
+A CNN based Tensorflow implementation on facial expression recognition (FER2013 dataset), achieving 66.47% accuracy 
 ![](images/model.png) 
 
 
@@ -83,7 +77,7 @@ A CNN based Tensorflow implementation on facial expression recognition (FER2013 
 ...
 
 ### Dependencies:
-- python 3.7<br/>
+- python 3.10<br/>
 - Keras with TensorFlow as backend<br/>
 - Streamlit framework for web implementation
 
@@ -111,23 +105,18 @@ I created  patterns for detecting and predicting single faces and as well as mul
 For Webapp , OpenCV can’t be used. Thus, using Streamlit for front-end application.Also because streamlit was taking a lot of time to boot so we also deployed it in flask just so that we have a working model that is quickly deployed.
 
 
-## Deployment of Streamlit WebApp in Heroku and Streamlit
+## Deployment of Streamlit WebApp in Streamlit
 
 In this repository I have made a front end using streamlit as it have recently launched a streamlit.share platform.
 
 
 Streamlit Link:- 
-Heroku link : 
-
-
-
-
-
+https://vagueken-visual-emotion-detection-streamlit-app-szogf9.streamlit.app/
 
 
 ## Conclusion
 
-Finally I build the webapp and deployed which has training accuracy of 78% and test accuracy of 66% .
+Finally I build the webapp and deployed which has training accuracy of 78% and test accuracy of 76% .
 
 
 
