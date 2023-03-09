@@ -1,0 +1,6 @@
+tensorflow>=2.5.0
+numpy>=1.19.5
+Keras>=2.4.3
+opencv-contrib-python-headless>=4.5.1.48
+streamlit-webrtc>=0.11.0
+matplotlib>=3.4.2
