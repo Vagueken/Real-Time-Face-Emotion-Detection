@@ -1,7 +1,7 @@
 # Visual-Emotion-Detection
 Emotion Detection using Transfer Learning Models
 
-# Live Class Monitoring System(Facical Expression Recognition)
+# Live Room Monitoring System(Facical Expression Recognition)
 
 ## Introduction
 Facial emotion recognition is the process of detecting human emotions from facial expressions. The human brain recognizes emotions automatically, and software has now been developed that can recognize emotions as well. This technology is becoming more accurate all the time, and will eventually be able to read emotions as well as our brains do. 
