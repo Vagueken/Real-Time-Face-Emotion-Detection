@@ -117,7 +117,7 @@ https://vagueken-real-time-face-emotion-detection-streamlit-app-2vopec.streamlit
 
 ## Conclusion
 
-Finally I build the webapp and deployed which has training accuracy of 78% and test accuracy of 76% .
+Finally I build the webapp and deployed which has training accuracy of 88% and test accuracy of 76% .
 
 
 
