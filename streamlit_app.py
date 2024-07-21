@@ -7,6 +7,7 @@ import streamlit as st
 st.title('Face emotion recognition')
 import av
 import cv2
+import os
 import numpy as np
 import streamlit as st
 from aiortc.contrib.media import MediaPlayer
@@ -18,7 +19,12 @@ from keras.models import load_model
 from keras import layers
 
 
-my_model=load_model('model.h5')
+model_path = '/workspaces/Real-Time-Face-Emotion-Detection/model.h5'
+if os.path.exists(model_path):
+    my_model = load_model(model_path)
+else:
+    print("Model file not found.")
+
 
 
 class VideoTransformer(VideoTransformerBase):
